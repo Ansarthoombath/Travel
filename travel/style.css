@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+ 
+   
+}
+header{
+    Z-index:99;
+    letter-spacing: 2px;
+}
+
+.banner-container{
+    background-color:black ;
+    width: 100%;
+    height:700px;
+}
+#travel{
+    text-shadow: 0px 1px 1px white;
+    letter-spacing: 2px;
+    font-weight: 700;
+   
+
+}
+#travel:hover{
+    border: white;
+    
+
+}
+li .nav-item{
+    margin-left: 20px;
+
+}
+.nav-item .nav-link{
+    font-size: 16px;
+    font-weight: 550;
+    color: black;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.5s ease-in-out;
+}
+.nav-item .nav-link:hover{
+    background: white;
+    color: black !important; 
+    
+}
+#search-btn{
+    background: black;
+    color: white !important; 
+}
+#search-btn:hover{
+    background: white;
+    color: black !important;
+}
+.home{
+    width: 100%;
+    height: 94vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.2)),url(./images/india.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+}
+.home .content{
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+    text-decoration: none;
+}
+.home .content h5,h1{
+    text-shadow: 1px 1px 1px black;
+    margin-top: 5px;
+}
+ .home .content p{
+    font-size: 15px;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px black;
+    margin-top: 5px;
+    margin-bottom: 30px;
+ }
+ .home .content a{
+    padding: 7px;
+    background: black;
+    color:white;
+    letter-spacing: 2px;
+    font-weight: 550;
+    border-radius: 5px;
+    transition: 0.5s;
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0px 1px 1px black;
+    
+ }
+ .home .content a:hover{
+    background: white;
+    color: black ;
+ }
+ .book{
+    background: black;
+    padding: 50px;
+    color: white;
+    margin-bottom: 0;
+    
+ }
+ .main-text h1{
+    text-align: center;
+    font-weight: 600;
+    text-shadow: 0px 1px 1px white ;
+    margin-bottom: 30px;
+ }
+ .book-btn{
+    color:brown;
+ }
+ textarea{
+    height: 41vh;
+ }
+ 
+ .book .submit{
+    transition: 0.5s;
+    width: 130px;
+    height: 50px;
+    font-weight: 550;
+    border-radius: 5px;
+    margin-top: 25px;
+
+ }
+ 
+
+ @media (max-width:760px){
+    .book .submit{
+        margin-left: 115px;
+    }
+ }
+ .packages {
+    margin-top: 0;
+    background:white;
+    width:100%;
+    height:100vh ;
+    margin-top: 0 !important;
+
+ }
+
+ .main-text h1{
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 30px;
+ }
+ .packages{
+    width: 100%;
+ }
+.packages .row{
+    align-content: space-between;
+}
+.packages .card{
+    box-shadow: rgba(0,0,0,0.2) 0px 4px 12px;
+    border-radius: 5px;
+}
+.packages .card img{
+    border-radius: 5px;
+
+}
+.packages .card h3{
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+.packages .card h6{
+    margin-bottom: 30px;
+}
+.packages .card a{
+    margin-botto: 15px;
+    padding: 10px;
+    
+    text-decoration: none;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+.packages .card .button{
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+
+.about{
+    margin-top: 40px;
+    background: black;
+    color: white;
+    width: 100%;
+    height: 100vh;
+}
+.about .main-text{
+    padding: 30px;
+}
+.about .card{
+    border-radius: 10px;
+    box-shadow: black;
+    border: 0;
+}
+.about .card img{
+    border-radius: 10px;
+}
+.about h2{
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.about p{
+    font-weight: 500;
+}
+
+.book, .packages, .about {
+    padding: 50px 0;
+    height: auto; 
+}
+
+@media (max-width:760px){
+    .packages .row{
+        padding-bottom: 20px;
+    }

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand ps-5 me-5" id="travel" href="#">Travel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#book">Book</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#packages">Packages</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              
+              
+             
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-5" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-light me-5" id="search-btn" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section>
+    <div class="home">
+     <div class="content">
+      <h1>Welcome to World</h1>
+      <h5>Visit the places</h5>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, maiores.</p>
+      <a href="#book">Book Place</a>
+
+    </div>
+  </div>
+  </section>
+
+  <section class="book" id="book">
+    <div class="container-fluid">
+
+      <div class="main-text">
+        <h1><span>B</span>ook</h1>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 py-3 py-md-0">
+          <div class="card">
+            <img src="./images/book-img.png" alt="" height="600px">
+          </div>
+        </div>
+
+        <div class="col-md-6 py-3 py-md-0">
+          <form action="#">
+            <input type="text" class="form-control" placeholder="Where To Go" required><br>
+            <input type="text" class="form-control" placeholder="How Many" required><br>
+      
+            <textarea class="form-control" name="text" rows="5" placeholder="Enter your Name & Details"></textarea><br>
+            <div class="book-btn">
+            <input type="submit" value="Book Now" class="submit" required>
+             </div>
+          </form>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section class="packages" id="packages">
+    <div class="container">
+      <div class="main-text">
+      
+        <h1>Packages</h1>
+      </div>   
+
+        <div class="row  mt-5 ms-10">
+          <div class="col-md-4 justify-content-center  py-3 py-md-0">
+            <div class="card text center p-3" >
+                <img src="./images/us.png" class="card-img-top" alt="..." style= "height: 20em; object-fit: cover;">
+                <div class="card-body">
+                  <h5 class="card-title text-center">United States</h5>
+                  <p class="card-text">exploring vibrant cities, relaxing on pristine beaches, or immersing yourself in rich cultures, adventure awaits around every corner. </p>
+                  <h6>Price:<strong>$450</strong></h6>
+                  <a href="#book" class="bookbtn">Book Now</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card text center p-3" >
+                  <img src="./images/france.png" class="card-img-top" alt="..." style= "height: 20em; object-fit: cover;" >
+                  <div class="card-body">
+                    <h5 class="card-title text-center">France</h5>
+                    <p class="card-text">Explore iconic landmarks like the Eiffel Tower, the Louvre, and the Palace of Versailles, or lose yourself in the quaint villages of Provence. 
+                    </p>
+                    <h6>Price:<strong>$500</strong></h6>
+                    <a href="#book" class="bookbtn">Book Now</a>
+                    
+                  </div>
+                </div>
+              </div> 
+             
+              <div class="col-md-4 justify-content-center py-3 py-md-0">
+                <div class="card text center p-3" >
+                    <img src="./images/italy.png" class="card-img-top" alt="..." style= "height: 20em; object-fit: cover;">
+                    <div class="card-body">
+                      <h5 class="card-title text-center">Italy</h5>
+                      <p class="card-text">Wander through the Renaissance streets of Florence, marvel at the breathtaking Amalfi Coast, and savor authentic Italian cuisine. </p>
+                      <h6>Price:<strong>$400</strong></h6>
+                      <a href="#book" class="bookbtn">Book Now</a>
+                      
+                    </div>
+                  </div>
+                </div> 
+        
+      </div>
+    </div>
+  </section>
+ 
+  <section class="about">
+    
+    <div class="container">
+      <div class="main-text">
+        <h1>About Us</h1>
+      </div>
+      <div class="row">
+      <div class="col-md-6 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/about-img.png" alt="">
+        </div>
+
+      </div>
+       <div class="col-md-6 py-3 py-md-0">
+        <h2>How Travel Agency Work</h2>
+        <p>
+          Welcome to our travel agency, where your journey begins with a seamless experience tailored to your desires. We are dedicated to making travel planning effortless and enjoyable. Our process starts with understanding your preferences—whether it's adventure, relaxation, or cultural immersion. With our extensive network of partners, we offer a wide range of destinations and packages to suit every traveler. Our team of experts handles all the details, from booking flights and accommodations to arranging personalized experiences. We ensure a hassle-free experience, so you can focus on creating unforgettable memories. Your dream vacation is just a step away with our reliable and customer-focused service.
+
+        </p>
+        
+       </div>
+    </div>
+
+    </div>
+  
+  </section>
+   
+  
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
